@@ -1,0 +1,760 @@
+{
+    "name": "CanSat",
+    "key": "cs",
+    "measurements": [
+        {
+            "name": "Acceleration X-Axis",
+            "key": "accX",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "g",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration Y-Axis",
+            "key": "accY",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "g",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration Z-Axis",
+            "key": "accZ",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "g",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Gyro X-Axis",
+            "key": "gyroX",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "deg/s",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Gyro Y-Axis",
+            "key": "gyroY",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "deg/s",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Gyro Z-Axis",
+            "key": "gyroZ",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "deg/s",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "MPU Temperature",
+            "key": "mpuTemp",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "*C",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "BMP280 Temperature",
+            "key": "temp",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "*C",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "BMP280 Pressure",
+            "key": "pressure",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "hPa",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "BMP280 Approx Altitute",
+            "key": "altitude",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "m",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "External Temperature",
+            "key": "extTemp",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "*C",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Date Rate",
+            "key": "dataRate",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "Hz",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration X-Axis Slope",
+            "key": "accXSlope",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "g/s",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration Y-Axis Slope",
+            "key": "accYSlope",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "g/s",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration Z-Axis Slope",
+            "key": "accZSlope",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "g/s",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Gyro X-Axis Slope",
+            "key": "gyroXSlope",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "deg/s^2",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Gyro Y-Axis Slope",
+            "key": "gyroYSlope",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "deg/s^2",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Gyro Z-Axis Slope",
+            "key": "gyroZSlope",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "deg/s^2",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Pressure Slope",
+            "key": "pressureSlope",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "hPa/s",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Altitude Slope",
+            "key": "altitudeSlope",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "m/s",
+                    "format": "float",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Flight State",
+            "key": "flightState",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "",
+                    "format": "int",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Live Time",
+            "key": "liveTime",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "ms",
+                    "format": "int",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Mission Time",
+            "key": "missionTime",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "ms",
+                    "format": "int",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Motor On",
+            "key": "motorOn",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "ms",
+                    "format": "int",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Parachute Out",
+            "key": "parachuteOut",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "ms",
+                    "format": "int",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Auto Change",
+            "key": "autoChange",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "ms",
+                    "format": "int",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Is Driving",
+            "key": "isDriving",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "ms",
+                    "format": "int",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Did Drive",
+            "key": "didDrive",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "ms",
+                    "format": "int",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Driving Time",
+            "key": "drivingTime",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "ms",
+                    "format": "int",
+                    "min": 0,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

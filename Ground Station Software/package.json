@@ -1,0 +1,20 @@
+{
+  "name": "openmct-deployment",
+  "version": "0.0.1",
+  "description": "Open MCT Deployment - Basic file tructure derived from openmct-tutorial under ISC license",
+  "main": "backend-server/server.js",
+  "scripts": {
+    "start": "node backend-server/server.js"
+  },
+  "author": "Matthew Brand",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-readline": "^2.0.2",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "openmct": "nasa/openmct",
+    "serialport": "^7.1.5",
+    "ws": "^6.1.2",
+    "xbee-api": "^0.6.0"
+  }
+}

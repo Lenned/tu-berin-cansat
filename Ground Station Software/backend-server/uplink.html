@@ -1,0 +1,113 @@
+<style>
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 50%;
+    }
+
+    .btn-big-red {
+        background-color: #C63702;
+        background-image: linear-gradient(167deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0) 55%), linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0));
+        border-radius: 1000px;
+        box-shadow: 0 0 0 1px #C63702 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #AD3002, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+        color: #FFF;
+        display: inline-block;
+        font-family: "Lucida Grande", Arial, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 61px;
+        margin: 30px 0 10px;
+        position: relative;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+        text-decoration: none !important;
+        top: 0;
+        width: 186px;
+        -moz-transition: 0.15s;
+        -o-transition: 0.15s;
+        -webkit-transition: 0.15s;
+        transition: 0.15s;
+    }
+
+    .btn-big-red:hover,
+    .btn-big-red:focus {
+        background-color: #D13902;
+        box-shadow: 0 0 0 1px #C63702 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #AD3002, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+        top: -2px;
+    }
+
+    .btn-big-red:active {
+        box-shadow: 0 0 0 1px #AD3002 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+</style>
+<div class="row">
+    <div class="column">
+        <h4 style="color:white;">Calibration</h4>
+        <form action="http://localhost:8080/uplink/calireset">
+            <input type="submit" value="Reset Calibration">
+        </form>
+        <form action="http://localhost:8080/uplink/caliall">
+            <input type="submit" value="Calibrate All to 0">
+        </form>
+        <h4 style="color:white;">Manual Control</h4>
+        <form action="http://localhost:8080/uplink/disableauto">
+            <input type="submit" value="Disable Auto Control">
+        </form>
+        <h4 style="color:white;">Parachute</h4>
+        <form action="http://localhost:8080/uplink/releaseparachute">
+            <input type="submit" value="Release Parachute">
+        </form>
+        <form action="http://localhost:8080/uplink/attachparachute">
+            <input type="submit" value="Attach Parachute">
+        </form>
+        <h4 style="color:white;">Servo</h4>
+        <form action="http://localhost:8080/uplink/servo0">
+            <input type="submit" value="Servo to 0 Degrees">
+        </form>
+        <form action="http://localhost:8080/uplink/servo45">
+            <input type="submit" value="Servo to 45 Degrees">
+        </form>
+        <form action="http://localhost:8080/uplink/servo90">
+            <input type="submit" value="Servo to 90 Degrees">
+        </form>
+        <h4 style="color:white;">Motors</h4>
+        <form action="http://localhost:8080/uplink/motoron">
+            <input type="submit" value="Enable Motors">
+        </form>
+        <form action="http://localhost:8080/uplink/motoroff">
+            <input type="submit" value="Disable Motors">
+        </form>
+    </div>
+    <div class="column">
+        <h4 style="color:white;">Arm</h4>
+        <form action="http://localhost:8080/uplink/arm">
+            <input type="submit" value="Arm CanSat">
+        </form>
+        <h4 style="color:white;">Staging</h4>
+        <form action="http://localhost:8080/uplink/preflight">
+            <input type="submit" value="Pre-Flight Stage">
+        </form>
+        <form action="http://localhost:8080/uplink/flight">
+            <input type="submit" value="Flight Stage">
+        </form>
+        <form action="http://localhost:8080/uplink/landing">
+            <input type="submit" value="Landing Stage">
+        </form>
+        <form action="http://localhost:8080/uplink/postlanding">
+            <input type="submit" value="Post-Landing Stage">
+        </form>
+        <h4 style="color:white;">Range Safety</h4>
+        <form action="">
+            <input class="btn-big-red" type="submit" value="DESTRUCT">
+        </form>
+    </div>
+</div>
