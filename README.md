@@ -39,9 +39,11 @@ We utilized [NASA openMCT](https://github.com/nasa/openmct) for our ground stati
 
 Our backend and uplink servers are written in Javascript using Node.JS and utilize a number of dependancies: notably [openMCT](https://github.com/nasa/openmct), [Express](https://expressjs.com), [serialport](https://www.npmjs.com/package/serialport), and [xbee-api](https://www.npmjs.com/package/xbee-api).
 
-## Project Outcomes
-
 ## Credits
+### Adviser
+
+Cem Avsar - [Managing Director, beSpace GmbH](https://www.mse.tu-berlin.de/about-us/lecturers/)
+
 ### Project Members:
 
  - Matthew Brand
