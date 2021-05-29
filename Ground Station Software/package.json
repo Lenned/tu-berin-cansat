@@ -14,7 +14,7 @@
     "express-ws": "^4.0.0",
     "openmct": "nasa/openmct",
     "serialport": "^7.1.5",
-    "ws": "^6.1.2",
+    "ws": "^7.4.6",
     "xbee-api": "^0.6.0"
   }
 }
