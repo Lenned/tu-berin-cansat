@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@serialport/parser-readline": "^2.0.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-ws": "^4.0.0",
     "openmct": "nasa/openmct",
     "serialport": "^7.1.5",
